@@ -158,6 +158,7 @@ output_row = dbc.Container(
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.JOURNAL])
 server = app.server
+app.title = 'Crypto calculator'
 
 description = """
 Check the latest cryptocurrency price against USD, EUR and GBP.
