@@ -1,0 +1,5 @@
+pandas
+dash==2.18.2
+dash-bootstrap-components
+requests
+gunicorn
